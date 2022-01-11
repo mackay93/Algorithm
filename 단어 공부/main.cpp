@@ -33,7 +33,7 @@ int main(void) {
     }
     
     for(int j = 0; j < str.length(); j++)   //문자열 중 각 문자가 몇번씩 나왔는지
-                                            //arr[index]를 늘리면서 호
+                                            //arr[index]를 늘리려가기
     {
         arr[str[j]- 65]++;
     }
